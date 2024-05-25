@@ -1,0 +1,191 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+#head {
+    width: 100%;
+    height: 70px;
+    /* background-color: #1b1b32; */
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+  }
+
+.head_h1 {
+    color: #090909;
+    font-family: system-ui;
+    font-size: min(3vw, 2.5em);
+    text-align: center;
+    padding-top: 0px;
+}
+
+#subhead{
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+#name{
+  margin-left: 50px;
+}
+
+/* html #hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    text-align: center;
+    font-size: 18px;
+
+    background: url(https://s3.amazonaws.com/uploads.hipchat.com/21309/369069/P3rXUVfLuQGvv7N/bw.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -o-animation: colorcycle 20s infinite;
+    -moz-animation: colorcycle20s infinite;
+    -webkit-animation: colorcycle 20s infinite;
+    animation: colorcycle 20s infinite; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    z-index: -1;
+}
+@-o-keyframes colorcycle {
+    0%   {background: #f5f5d7}
+    25%  {background: #e7caca}
+    50%  {background: #FDD7E4}
+    75%  {background: #f7dec5}
+    100% {background: #FFE4CD}
+  }
+  
+  @-moz-keyframes colorcycle {
+    0%   {background: #f5f5d7}
+    25%  {background: #e7caca}
+    50%  {background: #FDD7E4}
+    75%  {background: #f7dec5}
+    100% {background: #FFE4CD}
+  }
+  
+  @-webkit-keyframes colorcycle {
+    0%   {background: #f5f5d7}
+    25%  {background: #e7caca}
+    50%  {background: #FDD7E4}
+    75%  {background: #f7dec5}
+    100% {background: #FFE4CD}
+  }
+  
+  @keyframes colorcycle {
+    0%   {background: #f5f5d7}
+    25%  {background: #e7caca}
+    50%  {background: #FDD7E4}
+    75%  {background: #f7dec5}
+    100% {background: #FFE4CD}
+  } */
+
+  /* search bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.search-input {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+/* cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 230px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  height: 290px;
+  padding: 10px;
+}
+.card-content {
+  padding: 15px;
+}
+.card-title {
+  font-size: 15px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+.card-author {
+  color: #6684e7;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.marquee {
+	color: black;
+	font-weight: 500;
+	padding: 10px;
+	font-size: 18px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  border: 1px solid #dbd3d3;
+  margin-bottom: 80px;
+}
+
+
+
+footer {
+    /* background-color: #2a2a40; */
+    display: flex;
+    justify-content: center;
+  }
+  
+footer,
+footer a {
+    color: #090909;;
+  }
+  
+#footer {
+    text-align: center;
+    padding: 1.2em;
+    margin-top: 1rem;
+  }
